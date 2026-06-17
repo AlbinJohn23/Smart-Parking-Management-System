@@ -109,7 +109,7 @@ void loop()
         analogWrite(buzzer, 0);
       }
 
-      delay(1000);
+      delay(1100);
 
 // Close gate
       for (int pos = 120; pos >= 0; pos--)
